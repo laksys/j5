@@ -19,5 +19,7 @@ public class SetDemo {
     
     out.println(set.size());
     out.println(set);
+	//iterating collection
+    set.forEach(out::println);
   }
 }
